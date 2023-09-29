@@ -1,7 +1,7 @@
 setup for autoload with composer:
 1- run 'composer init' in vscode terminal
 2- run 'composer require guzzlehttp/guzzle' in vscode terminal
-3- put this command in the eindex file
+3- put this command in the index.php file
         $client = new \GuzzleHttp\Client();
         $response = $client->request('GET', 'http://jsonplaceholder.typicode.com/users');
 
@@ -16,4 +16,4 @@ setup for autoload with composer:
             }
 6- create src folder and put classes there
 7- run composer update in vscode terminal
-8- run index.php and see everythings is ok
+8- run index.php and see every things is ok
